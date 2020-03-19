@@ -1,0 +1,19 @@
+.chat-main
+  .chat-main__group-info
+    .chat-main__group-info__left-box
+      .chat-main__group-info__left-box__current-group
+        テストグループ
+      .chat-main__group-info__left-box__member-list
+        .chat-main__group-info__left-box__member-list__member
+          Member：
+    .chat-main__group-info__edit-btn
+      Edit
+  .chat-main__message-list
+  .chat-main__message-form
+    .chat-main__message-form__input-box
+      %input.chat-main__message-form__input-box__text{:placeholder => "type a message"}/
+      %label.chat-main__message-form__input-box__image
+        %i.far.fa-image
+        %input.chat-main__message-form__input-box__image__file(type="file")/
+    .chat-main__message-form__submit-btn
+      Send
