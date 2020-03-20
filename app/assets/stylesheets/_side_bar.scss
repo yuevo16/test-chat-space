@@ -43,15 +43,17 @@
     background-color: #2f3e51;
     padding: 20px;
     &__group {
-      color: #ffffff;
       height: 91px;
       width: 260px;
       margin: auto;
+      text-decoration: none;
       &__group-name {
+        color: #ffffff;
         font-size: 15px;
         margin-bottom: 5px;
       }
       &__latest-message {
+        color: #ffffff;
         font-size: 11px;
         margin-bottom: 40px;
       }
